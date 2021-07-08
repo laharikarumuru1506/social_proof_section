@@ -1,0 +1,48 @@
+body{
+	background-image:url("images/bg-pattern-top-desktop.svg"),url("images/bg-pattern-bottom-desktop.svg");
+	background-position: top left,center;
+	background-repeat: no-repeat;
+}
+.image{
+	width: 50px;
+	border-radius: 50%;
+}
+.card-1,.card-2,.card-3{
+	background-color: #4a0942;
+	padding: 20px 30px 35px 30px;
+	border-radius: 10px;
+	color: white;
+}
+.card-1 span,.card-2 span,.card-3 span{
+	color: rgba(255,255,255,0.7);
+}
+.card-1 small,.card-2 small,.card-3 small{
+	color: purple;
+}
+.review h1{
+  line-height: 40px !important;
+}
+.review{
+  color: #4a0942;	
+}
+.review span{
+	color: #88167a;
+}
+.division div{
+	background-color:#efdbf7;
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+.star{
+	display: inline-block;
+  width: 84px;
+  height: 16px;
+	background-image: url("images/icon-star.svg");
+}
+@media screen and (max-width: 500px){
+body{
+	background-image:url("images/bg-pattern-top-mobile.svg"),url("images/bg-pattern-bottom-mobile.svg");
+	background-position: top left,bottom;
+	background-repeat: no-repeat,no-repeat;
+}	
+}
